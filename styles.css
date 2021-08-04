@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.root-container {
+    width: 800px;
+    margin: auto;
+    border: 1px solid;
+    font-family: "Roboto";
+    font-size: 14px;
+    display: flex;
+}
+
+.sidebar {
+    min-width: 32%;
+    min-height: 100%;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.sidebar .profile-picture img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.sidebar .heading {
+    padding: 5px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+.margin-30 {
+    margin: 30px 0;
+}
+
+.contact ul {
+    text-align: left;
+}
+
+.contact * {
+    color: white !important;
+}
+
+.contact ul i {
+    margin-right: 10px;
+}
+
+.contact ul li {
+    margin: 15px 0;
+}
+
+.education-section {
+    margin-bottom: 15px;
+}
+
+.education-section h5 {
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+
+.expertise li {
+    margin: 15px 0;
+}
+
+.main-content {
+    color: black;
+    background-color: rgb(243, 243, 243);
+    padding-left: 40px;
+}
+
+.main-content .headings {
+    margin: 44px;
+    margin-right: 40px;
+    margin-left: 0;
+    text-align: center;
+}
+
+.main-content .main-heading {
+    font-size: 4rem;
+}
+
+.underline {
+    width: 80px;
+    margin: auto;
+    border-bottom: 2px solid black;
+    margin-top: 15px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section .section-heading {
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+.sub-section {
+    margin-bottom: 30px;
+}
+
+.sub-section .subsection-heading {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.sub-section .subsection-header {
+    margin-bottom: 10px;
+}
+
+.section p {
+    padding-right: 30px;
+}
