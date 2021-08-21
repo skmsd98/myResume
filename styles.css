@@ -112,6 +112,11 @@
     letter-spacing: 2px;
 }
 
+.section .section-heading:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
 .sub-section {
     margin-bottom: 30px;
 }
